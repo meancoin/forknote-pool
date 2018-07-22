@@ -1,8 +1,8 @@
 {
-    "coin": "dashcoin",
-    "symbol": "DSH",
-    "coinUnits": 1000000000000,
-    "coinDifficultyTarget": 120,
+    "coin": "meancoin",
+    "symbol": "MEAN",
+    "coinUnits": 100000000,
+    "coinDifficultyTarget": 240,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4NWHJ6Ravv93v4BaE",
+        "poolAddress": "ggVBwPHvN7n39Bj5uJ52QzPKTJjDYjW4HXyhGvVuyM2zJrDFXDAWFxjKtzipeUtokxFkPHP52RSSRZFrdXet7XLK2zJYDErVj",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -105,7 +105,7 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "password"
     },
 
     "daemon": {
