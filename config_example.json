@@ -91,7 +91,7 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 10,
+        "depth": 5,
         "poolFee": 2,
         "devDonation": 0.1,
         "coreDevDonation": 0.1,
@@ -110,13 +110,13 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 42081,
+        "port": 41311,
         "legacy": false
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8082
+        "port": 8070
     },
 
     "redis": {
